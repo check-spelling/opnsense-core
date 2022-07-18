@@ -11459,7 +11459,7 @@ var Scale = core_element.extend({
 		return this.options.labels || (this.isHorizontal() ? data.xLabels : data.yLabels) || data.labels || [];
 	},
 
-	// These methods are ordered by lifecyle. Utilities then follow.
+	// These methods are ordered by lifecycle. Utilities then follow.
 	// Any function defined here is inherited by all scale types.
 	// Any function can be extended by the scale type
 
