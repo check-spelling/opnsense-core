@@ -1060,7 +1060,7 @@
                 BootstrapDialog.moveFocus();
             });
 
-            // Backdrop, I did't find a way to change bs3 backdrop option after the dialog is popped up, so here's a new wheel.
+            // Backdrop, I didn't find a way to change bs3 backdrop option after the dialog is popped up, so here's a new wheel.
             this.handleModalBackdropEvent();
 
             // ESC key support
