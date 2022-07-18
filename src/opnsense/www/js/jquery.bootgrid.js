@@ -1140,7 +1140,7 @@ Grid.defaults = {
         /**
          * Specifies the HTTP method which shall be used when sending data to the server.
          * Go to http://api.jquery.com/jQuery.ajax/ for more details.
-         * This setting is overriden for backward compatibility.
+         * This setting is overridden for backward compatibility.
          *
          * @property method
          * @type String

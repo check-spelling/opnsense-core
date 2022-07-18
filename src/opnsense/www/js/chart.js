@@ -11459,7 +11459,7 @@ var Scale = core_element.extend({
 		return this.options.labels || (this.isHorizontal() ? data.xLabels : data.yLabels) || data.labels || [];
 	},
 
-	// These methods are ordered by lifecyle. Utilities then follow.
+	// These methods are ordered by lifecycle. Utilities then follow.
 	// Any function defined here is inherited by all scale types.
 	// Any function can be extended by the scale type
 
@@ -16106,7 +16106,7 @@ core_controller.Title = plugins.title._element;
 core_controller.pluginService = core_controller.plugins;
 
 /**
- * Provided for backward compatibility, inheriting from Chart.PlugingBase has no
+ * Provided for backward compatibility, inheriting from Chart.PluginBase has no
  * effect, instead simply create/register plugins via plain JavaScript objects.
  * @interface Chart.PluginBase
  * @deprecated since version 2.5.0
