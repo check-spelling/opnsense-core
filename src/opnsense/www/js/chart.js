@@ -16106,7 +16106,7 @@ core_controller.Title = plugins.title._element;
 core_controller.pluginService = core_controller.plugins;
 
 /**
- * Provided for backward compatibility, inheriting from Chart.PlugingBase has no
+ * Provided for backward compatibility, inheriting from Chart.PluginBase has no
  * effect, instead simply create/register plugins via plain JavaScript objects.
  * @interface Chart.PluginBase
  * @deprecated since version 2.5.0
